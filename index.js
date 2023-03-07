@@ -109,9 +109,9 @@ async function copyContent(){
 
         copiedMessage.innerText='failed';
     }
-    copiedMessage.classlist.add('active');
+    copiedMessage.classList.add('active');
     setTimeout(() => {
-        copiedMessage.classlist.remove('active');  
+        copiedMessage.classList.remove('active');  
     },5000);
 }
 
